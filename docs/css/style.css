@@ -17,11 +17,12 @@
 }
 
 header {
+    margin-top: 10px;
     padding: 2px 10px;
     position: fixed;
     background-color: #ffffff;
     width: 100%;
-    color: #191970;
+    color: #0000bb;
     z-index: 1;
     top: 0;
     left: 0;
@@ -44,4 +45,17 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+h2 {
+    font-size: 20pt;
+    background-color: #dddddd;
+}
+
+h3 {
+    font-size: 17pt;
 }
